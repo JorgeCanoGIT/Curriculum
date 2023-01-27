@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+
+<!-- Trabajo Final
+     Se aplican los conceptos:
+       - Estructura de archivos HMTL y CSS
+       - Utilización de elementos HTML: títulos, párrafos, tablas, imagenes
+       - Utilización de estilos 
+       - Utilización de clases para aplicación de características gráficas
+       - Utilizacion de indentados para un código mas claro y legible
+       - Utilizacion de botones para ralizar acciones dentro de la pagina.
+       - Implementacion de Funciones para acciones de Botones.
+-->    
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Trabajo Final. Curriculum Vitae: Jorge Eduardo Cano</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Estilos.css">
+</head>
+
+
+<body>
+    <!-- Titulo general de la página-->    
+    <h1>Trabajo Final. Curriculum Vitae</h1>
+
+    <h2>Datos Personales</h2>
+
+    <p>  </p>
+
+    <!-- Datos personales organizados en forma de tabla-->
+    <table id="Tabla_Datos">
+        <!--Agrega las Filas con los datos -->
+        <tr>  
+            <td class="Clase_Campo">Apellido: </td>
+            <td>Cano</td>
+            
+            <!--La imagen ocupa todos los renglones del cuadro-->
+            <td rowspan="8">
+
+            <!-- La imagen de foto carnet es ficticia -->
+            <img src="Imagenes/Foto_Carnet.jpg" alt="Imagen Foto Carnet" width="200px"  height="200px"/>  
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="Clase_Campo">Nombres: </td>
+            <td>Jorge Eduardo</td>
+            <td> </td>
+        </tr>
+
+        <tr>
+            <td class="Clase_Campo">Nacionalidad: </td>
+            <td>Argentino</td>
+            <td> </td>
+        </tr>
+    
+        <tr>
+            <td class="Clase_Campo">Fecha Nac.: </td>
+            <td>16/11/1972</td>
+            <td> </td>
+        </tr>
+        
+        <!--DNI= Dato Ficticio -->
+        <tr>
+            <td class="Clase_Campo">D.N.I.: </td>
+            <td>12.345.678</td>
+            <td> </td>
+        </tr>
+        
+        <!--Domicilio= Dato Ficticio -->
+        <tr>
+            <td class="Clase_Campo">Domicilio: </td>
+            <td>San Martín 123</td>
+            <td> </td>
+        </tr>
+
+        <tr>
+            <td class="Clase_Campo">Ciudad: </td>
+            <td>Gualeguaychú</td>
+            <td> </td>
+        </tr>
+
+        <tr>
+            <td class="Clase_Campo">Provincia: </td>
+            <td>Entre Ríos</td>
+            <td> </td>
+        </tr>
+
+    </table>
+
+    <p>  </p>
+    <p>  </p>
+
+    <button id="B_Estudios">Ver Estudios Cursados</button>
+    <p>  </p>
+
+    <button id="B_Capacitaciones">Ver Otras Capacitaciones</button>
+    <p>  </p>
+
+    <button id="B_Actividad">Ver Actividad Actual</button>
+    <p>  </p>
+
+    <button id="B_Antecedentes">Ver Antecedentes Laborales</button>
+    <p>  </p>
+
+    <h2 id="Titulo_Estudios">Estudios Cursados</h2>
+
+    <!-- Datos personales organizados en forma de tabla-->
+    <table id="Tabla_Estudios">
+        <!--Agrega las Filas con los datos -->
+        <tr>  
+            <td class="Clase_Campo">Secundario: </td>
+            <td>1991. Técnico Agrónomo. Instituto Agrotécinco Gualeguaychú.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo">Superior: </td>
+            <td>2013. Profesor de Educacion Tecnológica.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo">   </td>
+            <td>2022. Instructor de Formación Profesional.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo">   </td>
+            <td>
+                <img src="Imagenes/Docente.jpg" alt="Imagen Docente" class="img_docente"/>  
+            </td>
+        </tr>
+
+    </table>
+
+    
+    <h2 id="Titulo_Capacitaciones">Otras Capacitaciones</h2>
+
+
+    <!-- Otras Capacitaciones en forma de tabla-->
+    <table id="Tabla_Capacitaciones">
+        <!--Agrega las Filas con los datos -->
+        <tr>  
+            <td class="Clase_Campo">Operador de PC: </td>
+            <td>Manejo de Planilla de Cálculos.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo"> </td>
+            <td>Manejo de Procesadores de Texto.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo"> </td>
+            <td>Diseño Gráfico. Corel Draw</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo"> </td>
+            <td>Diseño en AutoCAD. Diseño en 2D y 3D.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo"> </td>
+            <td>Animación 3D. 3DStudio MAX.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo"> </td>
+            <td>
+                <img src="Imagenes/AutoCAD.jpg" alt="Imagen AutoCAD" class="img_autocad" width="400px" height="200px"/>  
+            </td>
+        </tr>
+        
+        <tr>  
+            <td class="Clase_Campo"> </td>
+            <td>Manejo de Internet.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo">Electrónica Digital: </td>
+            <td>Curso básico de electrónica digital en Facultad de Concepción del Uruguay Regional Gualeguaychú.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo"> </td>
+            <td>Curso de programación de microcontroladores Pic16F84 en Facultad de Con-cepción del Uruguay Regional Gualeguaychú</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo"> </td>
+            <td>Curso avanzado de programación de microcontroladores serie PIC16F87x en Facultad de Concepción del Uruguay Regional Gualeguaychú.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo"> </td>
+            <td>
+                <img src="Imagenes/Microcontrolador.jpg" alt="Imagen Microcontrolador" class="img_micro" width="400px" height="200px"/>  
+            </td>
+        </tr>
+
+    </table>
+
+
+    <h2 id="Titulo_Actividad">Actividad Actual</h2>
+
+    
+    <!-- Actividad Actual organizada en forma de tabla-->
+    <table id="Tabla_Actividad">
+        <!--Agrega las Filas con los datos -->
+        <tr>  
+            <td class="Clase_Campo">Docente: </td>
+            <td>Profesor de Educación Tecnolóogica en Nivel Secundario.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo"> </td>
+            <td>Taller de Electrónica Digital en Tecnicatura Superior.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo"> </td>
+            <td>
+                <img src="Imagenes/Docente_Electronica.jpg" alt="Imagen Docente Electronica" class="img_electronica" width="88px" height="88px"/>  
+            </td>
+        </tr>
+
+
+        <tr>  
+            <td class="Clase_Campo">Desarrollador: </td>
+            <td>Diseño de Sistemas Digitales.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo"> </td>
+            <td>Programador de Microcontroladores.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo"> </td>
+            <td>Desarrollo de software para aplicaciones electrónicas.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo"> </td>
+            <td>
+                <img src="Imagenes/Electronica.jpg" alt="Imagen Electronica" class="img_electronica" width="400px" height="200px"/>  
+            </td>
+        </tr>
+
+    </table>
+
+    
+    <h2 id="Titulo_Antecedentes">Antecedentes Laborales</h2>
+
+
+    <!-- antecedentes Laborales en forma de tabla-->
+    <table id="Tabla_Antecedentes">
+        <!--Agrega las Filas con los datos -->
+        <tr>  
+            <td class="Clase_Campo">1994</td>
+            <td>Instructor de computación en instituto privado: “Academia de Enseñanza Integral”.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo">1995</td>
+            <td>Dibujo de planos de mensuras.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo">1996</td>
+            <td>Programación de sistemas Autocad.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo">1997</td>
+            <td>Cadista en Departamento de Ingeniería de Empresa de Manufactura Industrial.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo">2002</td>
+            <td>Emprendimiento. Desarrollador de Sistenas Digitales.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo">2003</td>
+            <td>Emprendimiento. Desarrollo de Software para Electrónica Digital.</td>
+        </tr>
+
+        <tr>  
+            <td class="Clase_Campo">2014</td>
+            <td>Docente de nivel Secundario y Superior.</td>
+        </tr>
+
+    </table>
+
+
+    <button id="B_Inicio">volver a Inicio</button>
+    <p>  </p>
+
+    <script src="js\funciones.js"></script>         <!-- llamada a scrip  -->
+
+
+</body>
+
+</html>

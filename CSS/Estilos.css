@@ -1,0 +1,286 @@
+/* ----------------------------------------------------------------------
+   Hoja de Estilos para presentación de Curriculum Vitae
+   Autor:      Jorge Eduardo Cano
+   Archivo:    Estilos.css
+   Modificado: 20/01/2023
+   ----------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------------- */
+/* Estilo de la Página completa.*/
+body {
+  background-color: rgb(221, 247, 255);
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------------- */
+/* Título principal de la página.*/
+h1 {
+    color: rgb(18, 58, 145);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma,  sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    text-decoration-line: underline;
+    }
+/* ----------------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------------- */
+/* Títulos de las diferentes secciones del curriculum.*/
+h2 {
+  color: rgb(18, 58, 145);
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma,  sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  text-decoration-line: underline;
+  }
+/* ----------------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------------- */
+/* Parrafos genericos.*/
+p {
+    color: rgb(28, 5, 158);
+    font-family: Verdana, Geneva, Tahoma,  sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-align:left;
+  }
+  /* ----------------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------------- */
+/* Estilo de Tabla para los datos.*/
+#Tabla_Datos {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-style: solid;
+  font-family: Verdana, Geneva, Tahoma,  sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  text-align:left;
+  color: blue;
+  margin:auto
+}
+/* ----------------------------------------------------------------------- */    
+
+
+/* ----------------------------------------------------------------------- */
+/* Estilo de Boton Estudios.*/
+#B_Estudios {
+  width: 300px;
+  margin:auto
+}
+/* ----------------------------------------------------------------------- */    
+
+
+/* ----------------------------------------------------------------------- */
+/* Estilo de Boton Capacitaciones.*/
+#B_Capacitaciones {
+  width: 300px;
+  margin:auto
+}
+/* ----------------------------------------------------------------------- */    
+
+
+/* ----------------------------------------------------------------------- */
+/* Estilo de Boton Actividad.*/
+#B_Actividad {
+  width: 300px;
+  margin:auto
+}
+/* ----------------------------------------------------------------------- */    
+
+
+/* ----------------------------------------------------------------------- */
+/* Estilo de Boton Antecedentes.*/
+#B_Antecedentes {
+  width: 300px;
+  margin:auto
+}
+/* ----------------------------------------------------------------------- */    
+
+
+/* ----------------------------------------------------------------------- */
+/* Estilo de Boton Inicio.*/
+#B_Inicio {
+  width: 300px;
+  margin:auto
+}
+/* ----------------------------------------------------------------------- */    
+
+
+/* ----------------------------------------------------------------------- */
+/* Estilo de Titulo Estudios.*/
+#Titulo_Estudios {
+  display: none;
+}
+/* ----------------------------------------------------------------------- */    
+
+
+/* ----------------------------------------------------------------------- */
+/* Estilo de Titulo Capacitaciones.*/
+#Titulo_Capacitaciones {
+  display: none;
+}
+/* ----------------------------------------------------------------------- */    
+
+
+/* ----------------------------------------------------------------------- */
+/* Estilo de Titulo Actividad.*/
+#Titulo_Actividad {
+  display: none;
+}
+/* ----------------------------------------------------------------------- */    
+
+
+/* ----------------------------------------------------------------------- */
+/* Estilo de Titulo Antecedentes.*/
+#Titulo_Antecedentes {
+  display: none;
+}
+/* ----------------------------------------------------------------------- */    
+
+
+/* ----------------------------------------------------------------------- */
+/* Estilo de Tabla para los Estudios.*/
+#Tabla_Estudios {
+  display: none;
+  width: 1000px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma,  sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  text-align:left;
+  color: blue;
+  margin:auto
+}
+/* ----------------------------------------------------------------------- */    
+
+
+/* ----------------------------------------------------------------------- */
+/* Estilo de Tabla para Actividad Actual.*/
+#Tabla_Actividad {
+  display: none;
+  width: 1000px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma,  sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  text-align:left;
+  color: blue;
+  margin:auto
+}
+/* ----------------------------------------------------------------------- */    
+
+
+/* ----------------------------------------------------------------------- */
+/* Estilo de Tabla Capacitaciones.*/
+#Tabla_Capacitaciones {
+  display: none;
+  width: 1000px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma,  sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  text-align:left;
+  color: blue;
+  margin:auto
+}
+/* ----------------------------------------------------------------------- */    
+
+
+/* ----------------------------------------------------------------------- */
+/* Estilo de Tabla Antecedentes.*/
+#Tabla_Antecedentes {
+  display: none;
+  width: 1000px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma,  sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  text-align:left;
+  color: blue;
+  margin:auto
+}
+/* ----------------------------------------------------------------------- */    
+
+
+/* ----------------------------------------------------------------------- */  
+/* Clase Campos de datos para estilo.*/
+.Clase_Campo {
+  width: 200px;
+  font-family: Verdana, Geneva, Tahoma,  sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  text-align:left;
+  color: blue;
+  font-weight:bold;
+}
+/* ----------------------------------------------------------------------- */    
+
+/* ----------------------------------------------------------------------- */  
+/* Alineacion de imagen*/
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ----------------------------------------------------------------------- */    
+
+
+
+/* ----------------------------------------------------------------------- */  
+/* Alineacion de imagen*/
+.img_docente {
+  margin: auto;
+}
+/* ----------------------------------------------------------------------- */    
+
+
+/* ----------------------------------------------------------------------- */  
+/* Alineacion de imagen*/
+.img_electronica {
+  display:block;
+  margin: auto;
+}
+/* ----------------------------------------------------------------------- */    
+
+
+/* ----------------------------------------------------------------------- */  
+/* Alineacion de imagen*/
+.img_autocad {
+  display: inline;
+  margin-left: "0px";
+}
+/* ----------------------------------------------------------------------- */    
+
+
+/* ----------------------------------------------------------------------- */  
+/* Alineacion de imagen*/
+.img_micro {
+  display: inline;
+  margin-left: "0px";
+}
+  /* ----------------------------------------------------------------------- */    
